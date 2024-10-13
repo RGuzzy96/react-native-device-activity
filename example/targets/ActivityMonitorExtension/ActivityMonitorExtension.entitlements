@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.ActivityMonitor</string>
+		<string>group.swayActivityMonitor</string>
 	</array>
 </dict>
 </plist>

@@ -18,7 +18,7 @@ let logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: "react-n
 @available(iOS 15.0, *)
 class DeviceActivityMonitorExtension: DeviceActivityMonitor {
   let notificationCenter = CFNotificationCenterGetDarwinNotifyCenter()
-  let userDefaults = UserDefaults(suiteName: "group.ActivityMonitor")
+  let userDefaults = UserDefaults(suiteName: "group.swayActivityMonitor")
   
   func sendNotification(name: String){
     let notificationName = CFNotificationName(name as CFString)
